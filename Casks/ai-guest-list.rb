@@ -20,10 +20,7 @@ cask "ai-guest-list" do
     AI Guest List is not signed or notarized, so macOS Gatekeeper blocks the first
     launch. Pick one of these:
 
-    Easiest — install/reinstall without the quarantine flag:
-      brew reinstall --cask --no-quarantine ai-guest-list
-
-    Already installed? Clear the quarantine attribute:
+    Easiest — clear the quarantine attribute after installing:
       xattr -dr com.apple.quarantine "/Applications/AI Guest List.app"
 
     Or approve it in Gatekeeper:
