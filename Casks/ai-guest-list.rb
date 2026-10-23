@@ -1,6 +1,6 @@
 cask "ai-guest-list" do
-  version "1.2.1"
-  sha256 "7787285491d55beaa660f39625745a0cd4e24c24b1d0fba3c174e48437a3595c"
+  version "1.2.2"
+  sha256 "f276c6df536be26667d207ac440e1c4944887fd00c46a482d208aed632d7e1e6"
 
   url "https://github.com/fheinfling/ai-guest-list/releases/download/v#{version}/AI-Guest-List-v#{version}.zip"
   name "AI Guest List"
